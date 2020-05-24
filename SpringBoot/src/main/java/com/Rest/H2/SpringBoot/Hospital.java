@@ -11,7 +11,7 @@ import lombok.Data;
 @Entity //JPA annotation to make this object ready for storage in a JPA-based data store.
 public class Hospital {
 	
-	
+	//hi
 	private @Id @GeneratedValue int hospitalId;
 	private String hospitalName;
 	private String location;
